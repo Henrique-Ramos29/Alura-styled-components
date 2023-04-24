@@ -18,7 +18,6 @@ function App() {
     setTema((tema) => !tema);
   };
 
-
   return (
 
       <ThemeProvider theme={tema ? temaClaro : temaEscuro}>
